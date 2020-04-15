@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,300,400');
+
+*{
+color: #CCCCCC;
+font-family: 'Montserrat', sans-serif;
+	}
+
+a{
+	color: #F15E4B;
+}
+
+h1{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 3.0vw;
+	font-weight: 100;
+	
+}
+h3{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 2.0em;
+	font-weight: 300;
+
+}
+p{
+	font-family: 'Montserrat', sans-serif;
+
+}
+
+.logo{
+	height: 30px;
+}
+
+.b-gradient-left{
+	 border: 1px solid transparent;
+  -moz-border-image: -moz-linear-gradient(left, #F15E4B 0%, grey 50%);
+  -webkit-border-image: -webkit-linear-gradient(left, #F15E4B 0%, grey 50%);
+  border-image: linear-gradient(to left, #F15E4B 0%, grey 50%);
+  border-image-slice: 1;
+
+}
+
+hr {
+		  border: 0; 
+  height: 1px; 
+  background-image: -webkit-linear-gradient(left, #8c8b8b, #8c8b8b, #f0f0f0);
+  background-image: -moz-linear-gradient(left, #8c8b8b, #8c8b8b, #f0f0f0);
+  background-image: -ms-linear-gradient(left, #8c8b8b, #8c8b8b, #f0f0f0);
+  background-image: -o-linear-gradient(left, #8c8b8b, #8c8b8b, #f0f0f0); 
+}
+
+.down{
+			  border: 0; 
+  height: 1px; 
+  background-image: -webkit-linear-gradient(left, #f0f0f0, #F15E4B, #f0f0f0);
+  background-image: -moz-linear-gradient(left, #f0f0f0, #F15E4B, #f0f0f0);
+  background-image: -ms-linear-gradient(left, #f0f0f0, #F15E4B, #f0f0f0);
+  background-image: -o-linear-gradient(left, #f0f0f0, #F15E4B, #f0f0f0); 
+}
+
+
+}
+
+.container-fluid {
+	padding: 0;
+}
+
+.simbolo3{
+	width: 150px;
+	background-color: grey;
+}
+
